@@ -1,0 +1,90 @@
+﻿*** Start of Concatenating Strings Demo ***
+Type the 1st string (q - to quit):
+a
+Type the 2nd string:
+1
+Concatenated string is 'a1'
+Type the 1st string (q - to quit):
+abcdeabcdeabcdeabcdeabcdeabcdeabcdeabcde
+Type the 2nd string:
+abcdeabcdeabcdeabcdeabcdeabcdeabcdeabcd
+Concatenated string is 'abcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcd'
+Type the 1st string (q - to quit):
+hello this is a larger string hopefullly it will still work
+Type the 2nd string:
+Let's see if it acctually worked
+Concatenated string is 'hello this is a larger string hopefullly it will still workLet's see if it acctually worked'
+Type the 1st string (q - to quit):
+
+
+Type the 2nd string:
+
+
+Concatenated string is ''
+Type the 1st string (q - to quit):
+1122334455667788990011223344556677889900112233445566778899001122334455667788990011223344556677889900
+Type the 2nd string:
+Concatenated string is '112233445566778899001122334455667788990011223344556677889900112233445566778899011223344556677889900'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+
+***Start of Comparing Strings Demon***
+Type the 1st string to compare (q - to quit):
+same string
+Type the 2nd string to compare:
+same string
+'same string' string is equal to 'same string'
+Type the 1st string to compare (q - to quit):
+a1b2c3d4
+Type the 2nd string to compare:
+a1b2c3
+'a1b2c3d4' string is greater than 'a1b2c3'
+Type the 1st string to compare (q - to quit):
+a1b2c3
+Type the 2nd string to compare:
+a1b2c3d4
+'a1b2c3' string is less than 'a1b2c3d4'
+Type the 1st string to compare (q - to quit):
+hello
+Type the 2nd string to compare:
+hi
+'hello' string is less than 'hi'
+Type the 1st string to compare (q - to quit):
+1122334455667788990011223344556677889900112233445566778899001122334455667788990011223344556677889900
+Type the 2nd string to compare:
+'112233445566778899001122334455667788990011223344556677889900112233445566778899' string is greater than '011223344556677889900'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demon ***
+
+
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+hello
+Type the substring:
+he
+'he' found at 0 position
+Type the string (q - to quit):
+hello
+Type the substring:
+o
+'o' found at 4 position
+Type the string (q - to quit):
+hello
+Type the substring:
+hi
+Not found
+Type the string (q - to quit):
+hello
+Type the substring:
+helloo
+Not found
+Type the string (q - to quit):
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+Type the substring:
+'012345678901234567890' found at 9 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
