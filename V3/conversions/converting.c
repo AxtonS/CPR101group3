@@ -23,6 +23,7 @@ void converting() {
 	while (strcmp(intString, "q") != 0);
 	printf("*** End of Converting Strings to int Demo ***\n\n");
 
+// Converts user's input into a double value
 /* Version 2 */
 	printf("*** Start of Converting Strings to double Demo ***\n");
 	char doubleString[BUFFER_SIZE];
@@ -40,6 +41,7 @@ void converting() {
 	} while (strcmp(doubleString, "q") != 0);
 	printf("*** End of Converting Strings to double Demo ***\n\n");
 
+// Converts user's input into a long value
 /* Version 3 */
 	printf("*** Start of Converting Strings to long Demo ***\n");
 	char longString[BUFFER_SIZE];
