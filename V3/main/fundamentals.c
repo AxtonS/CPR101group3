@@ -33,6 +33,7 @@ void fundamentals() {
 	printf("*** End of Indexing Strings Demo ***\n\n");
 
 	/* Version 2 */
+	// Measures the length of a string
 	printf("*** Start of Measuring Strings Demo ***\n");
 	char buffer2[BUFFER_SIZE];
 	do {
@@ -45,5 +46,22 @@ void fundamentals() {
 	printf("*** End of Measuring Strings Demo ***\n\n");
 
 	/* Version 3 */
-	//>> insert here
+	// Copies one string to another
+	printf("*** Start of Copying Strings Demo ***\n");
+	char destination[BUFFER_SIZE];
+	char source[BUFFER_SIZE];
+	do
+	{
+		destination[0] = '\0';
+		printf("Destination string is reset to empty\n");
+		printf("Type the source string (q - to quit):\n");
+		fgets(source, BUFFER_SIZE, stdin);
+		source[strlen(source) - 1] = '\0';
+		if (strcmp(source, "q") != 0)
+		{
+			strcpy(destination, source);
+			printf("New destination string is \'%s\'\n", destination);
+		}
+	} while (strcmp(source, "q") != 0);
+	printf("*** End of copying Strings Demo ***\n\n");
 }

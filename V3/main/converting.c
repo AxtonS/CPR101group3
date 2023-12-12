@@ -3,9 +3,9 @@
 
 #include "converting.h"
 
-// User inputs a number as a string, then it is returned as an int
 void converting() {
-/* Version 1 */
+	/* Version 1 */
+	// User inputs a number as a string, then it is returned as an int
 	printf("*** Start of Converting Strings to int Demo ***\n");
 	char intString[BUFFER_SIZE];
 	int intNumber;
@@ -23,7 +23,8 @@ void converting() {
 	while (strcmp(intString, "q") != 0);
 	printf("*** End of Converting Strings to int Demo ***\n\n");
 
-/* Version 2 */
+    /* Version 2 */
+	// Converts user input to double type
 	printf("*** Start of Converting Strings to double Demo ***\n");
 	char doubleString[BUFFER_SIZE];
 	double doubleNumber;
@@ -40,8 +41,22 @@ void converting() {
 	} while (strcmp(doubleString, "q") != 0);
 	printf("*** End of Converting Strings to double Demo ***\n\n");
 
-/* Version 3 */
-//>> insert here
-
+	/* Version 3 */
+	// Converts user input to long type
+	printf("*** Start of Converting Strings to long Demo ***\n");
+	char longString[BUFFER_SIZE];
+	long longNumber;
+	do
+	{
+		printf("Type the long numeric string (q - to quit):\n");
+		fgets(longString, BUFFER_SIZE, stdin);
+		longString[strlen(longString) - 1] = '\0';
+		if ((strcmp(longString, "q") != 0))
+		{
+			longNumber = atol(longString);
+			printf("Converted number is %ld\n", longNumber);
+		}
+	} while (strcmp(longString, "q") != 0);
+	printf("*** End of Converting Strings to long Demo ***\n\n");
 
 }

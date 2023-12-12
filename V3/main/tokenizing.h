@@ -6,10 +6,4 @@
 
 void tokenizing(void);
 
-int main() {
-    // Call your tokenizing function or include it in your main function
-    tokenizing();
-
-    return 0;
-}
 #endif 
