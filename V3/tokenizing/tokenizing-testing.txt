@@ -1,0 +1,28 @@
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot(q - to quit):
+The
+Sentence #1 is 'The'
+Type a few sentences separated by dot(q - to quit):
+Honestly. This is a sentence.
+Sentence #1 is 'Honestly'
+Sentence #2 is ' This is a sentence'
+Type a few sentences separated by dot(q - to quit):
+What. if. there. was. a. period. after. every. word?
+Sentence #1 is 'What'
+Sentence #2 is ' if'
+Sentence #3 is ' there'
+Sentence #4 is ' was'
+Sentence #5 is ' a'
+Sentence #6 is ' period'
+Sentence #7 is ' after'
+Sentence #8 is ' every'
+Sentence #9 is ' word?'
+Type a few sentences separated by dot(q - to quit):
+123
+Sentence #1 is '123'
+Type a few sentences separated by dot(q - to quit):
+!*&
+Sentence #1 is '!*&'
+Type a few sentences separated by dot(q - to quit):
+q
+*** End of Tokenizing Sentences Demo ***
