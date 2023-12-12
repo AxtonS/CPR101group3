@@ -1,0 +1,25 @@
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+f
+New destination string is 'f'
+Destination string is reset to empty
+Type the source string (q - to quit):
+string
+New destination string is 'string'
+Destination string is reset to empty
+Type the source string (q - to quit):
+verylongstringofextraordinarylength
+New destination string is 'verylongstringofextraordinarylength'
+Destination string is reset to empty
+Type the source string (q - to quit):
+abc123
+New destination string is 'abc123'
+Destination string is reset to empty
+Type the source string (q - to quit):
+This is a sentence.
+New destination string is 'This is a sentence.'
+Destination string is reset to empty
+Type the source string (q - to quit):
+q
+*** End of copying Strings Demo ***
